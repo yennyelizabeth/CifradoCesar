@@ -69,7 +69,7 @@ function cipher (sentence,parameter){
 
       stringCipher+=(String.fromCharCode(temp1)); //acumula caracteres
   }
-      console.log(stringCipher);
+      alert(stringCipher);
       prompt(stringCipher);
 }
 
@@ -88,5 +88,5 @@ function decipher (sentence,parameter){
       }
       stringDecipher+=(String.fromCharCode(temp1)); //acumula caracteres
   }
-     console.log(stringDecipher);
+     alert(stringDecipher);
 }
